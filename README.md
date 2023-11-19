@@ -26,10 +26,14 @@ This application simulates a 5-card poker draw game where players can register, 
 1. Download the project zip file.
 2. Extract the downloaded files to a directory of your choice.
 3. Open the project in Visual Studio.
-4. Ensure you have SQL Server installed and configured.
-5. Update the connection string in the project's context in DataInterface/Models/CardDrawGameContext to connect to your SQL Server database.
-6. Build and run the project.
-7. Screenshots have been provided to show how you can set everything up.
+4. Ensure you have SQL Server Management Studio installed and configured.
+5. Get your local server using SQL Server Object Explorer inside Visual Studio code
+6. Use SQL Server Management Studio to log in with your local Server name and also use Windows Authentication
+7. Open the sql script provided
+8. Run the script to create a database and tables since Database first approach is used
+9. Update the connection string in the project's context in DataInterface/Models/CardDrawGameContext to connect to your SQL Server database.
+10. Build and run the project.
+11. Screenshots have been provided to show how you can set everything up.
 
 ## Usage
 
